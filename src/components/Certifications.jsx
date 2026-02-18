@@ -13,8 +13,8 @@ function Certifications() {
                 <Award size={14} />
                 Certified
               </p>
-              <h3 className="mt-3 font-display text-lg font-semibold text-white">{cert.title}</h3>
-              <p className="mt-2 text-sm text-slate-300">{cert.issuer}</p>
+              <h3 className="mt-3 font-display text-base font-semibold text-white sm:text-lg">{cert.title}</h3>
+              <p className="mt-2 text-sm text-slate-300 break-words">{cert.issuer}</p>
             </article>
           ))}
         </div>

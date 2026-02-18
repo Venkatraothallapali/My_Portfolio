@@ -8,8 +8,8 @@ function Footer() {
         <div className="glass-card flex flex-col items-start justify-between gap-8 p-6 sm:flex-row sm:items-center sm:p-8">
           <div>
             <h2 className="font-display text-2xl font-semibold text-white">Contact</h2>
-            <p className="mt-2 text-sm text-slate-300 sm:text-base">{personalInfo.email}</p>
-            <p className="mt-1 text-sm text-slate-300 sm:text-base">{personalInfo.phone}</p>
+            <p className="mt-2 break-all text-sm text-slate-300 sm:text-base">{personalInfo.email}</p>
+            <p className="mt-1 break-words text-sm text-slate-300 sm:text-base">{personalInfo.phone}</p>
           </div>
 
           <div className="flex items-center gap-3">

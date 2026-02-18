@@ -57,12 +57,12 @@ function Projects() {
               <img
                 src={project.image}
                 alt={project.alt}
-                className="h-52 w-full border-b border-white/10 object-cover"
+                className="h-44 w-full border-b border-white/10 object-cover sm:h-52"
                 loading="eager"
                 decoding="async"
               />
               <div className="p-6">
-                <h3 className="font-display text-2xl font-semibold text-white">{project.title}</h3>
+                <h3 className="font-display text-xl font-semibold text-white sm:text-2xl">{project.title}</h3>
                 <p className="mt-3 text-sm leading-7 text-slate-300 sm:text-base">
                   {project.description}
                 </p>
@@ -76,12 +76,12 @@ function Projects() {
                     </span>
                   ))}
                 </div>
-                <div className="mt-6 flex flex-wrap gap-3">
+                <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                   <a
                     href={project.repo}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-xl bg-brand-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-400"
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl bg-brand-500 px-4 py-2 text-sm font-semibold text-white transition hover:bg-brand-400 sm:w-auto"
                   >
                     <GithubIcon size={16} />
                     View GitHub
@@ -90,7 +90,7 @@ function Projects() {
                     href={project.repo}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-4 py-2 text-sm font-semibold text-white transition hover:bg-white/10"
+                    className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-4 py-2 text-sm font-semibold text-white transition hover:bg-white/10 sm:w-auto"
                   >
                     Repository Link
                     <ExternalLinkIcon size={16} />

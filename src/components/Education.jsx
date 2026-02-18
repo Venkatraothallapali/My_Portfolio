@@ -13,8 +13,8 @@ function Education() {
                 <GraduationCap size={14} />
                 Academic Credential
               </p>
-              <h3 className="mt-3 font-display text-xl font-semibold text-white">{item.degree}</h3>
-              <p className="mt-2 text-sm leading-6 text-slate-300">{item.institute}</p>
+              <h3 className="mt-3 font-display text-lg font-semibold text-white sm:text-xl">{item.degree}</h3>
+              <p className="mt-2 text-sm leading-6 text-slate-300 break-words">{item.institute}</p>
               <p className="mt-4 text-sm font-semibold text-brand-100">{item.score}</p>
             </article>
           ))}

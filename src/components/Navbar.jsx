@@ -17,17 +17,17 @@ function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/90 backdrop-blur">
-      <nav className="section-shell flex h-16 items-center justify-between">
-        <a href="#home" className="font-display text-lg font-semibold text-white">
+      <nav className="section-shell flex h-16 items-center justify-between sm:h-20">
+        <a href="#home" className="font-display text-xl font-bold text-white sm:text-2xl">
           {personalInfo.name}
         </a>
 
-        <ul className="hidden items-center gap-6 md:flex">
+        <ul className="hidden items-center gap-5 md:flex lg:gap-6">
           {links.map((link) => (
             <li key={link.label}>
               <a
                 href={link.href}
-                className="text-sm font-medium text-slate-300 transition hover:text-white"
+                className="relative inline-block text-sm font-bold text-slate-300 transition duration-200 hover:text-white md:hover:scale-110 lg:text-base after:absolute after:-bottom-1 after:left-0 after:h-px after:w-0 after:bg-white after:transition-all after:duration-200 hover:after:w-full"
               >
                 {link.label}
               </a>
@@ -46,12 +46,12 @@ function Navbar() {
 
       {isOpen && (
         <div className="border-t border-white/10 bg-slate-950 md:hidden">
-          <ul className="section-shell grid gap-2 py-4">
+          <ul className="section-shell grid gap-2 py-3">
             {links.map((link) => (
               <li key={link.label}>
                 <a
                   href={link.href}
-                  className="block rounded-lg px-3 py-2 text-sm text-slate-300 transition hover:bg-white/5 hover:text-white"
+                  className="relative block rounded-lg px-3 py-2 text-sm font-bold text-slate-300 transition hover:bg-white/5 hover:text-white sm:text-base"
                   onClick={() => setIsOpen(false)}
                 >
                   {link.label}

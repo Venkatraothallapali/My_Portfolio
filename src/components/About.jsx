@@ -7,7 +7,7 @@ function About() {
         <h2 className="section-title">About</h2>
         <div className="mt-8 grid gap-6 lg:grid-cols-[2fr_1fr]">
           <article className="glass-card p-6 sm:p-8">
-            <p className="text-base leading-8 text-slate-300 whitespace-pre-line">
+            <p className="whitespace-pre-line text-sm leading-7 text-slate-300 sm:text-base sm:leading-8">
               {professionalSummary.trim()}
             </p>
           </article>
