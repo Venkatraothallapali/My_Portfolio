@@ -58,7 +58,8 @@ function Projects() {
                 src={project.image}
                 alt={project.alt}
                 className="h-52 w-full border-b border-white/10 object-cover"
-                loading="lazy"
+                loading="eager"
+                decoding="async"
               />
               <div className="p-6">
                 <h3 className="font-display text-2xl font-semibold text-white">{project.title}</h3>
