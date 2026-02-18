@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Industry Iceberg website placeholder">
+  <rect width="960" height="540" fill="#020617" />
+  <rect x="50" y="45" width="860" height="450" rx="22" fill="#0f172a" stroke="#334155" />
+  <rect x="90" y="90" width="780" height="46" rx="10" fill="#1e293b" />
+  <rect x="90" y="165" width="360" height="240" rx="14" fill="#1d4ed8" opacity="0.35" />
+  <rect x="480" y="165" width="390" height="70" rx="10" fill="#1e293b" />
+  <rect x="480" y="255" width="390" height="70" rx="10" fill="#1e293b" />
+  <rect x="480" y="345" width="390" height="60" rx="10" fill="#1e293b" />
+  <text x="90" y="460" fill="#e2e8f0" font-size="28" font-family="Manrope, Arial, sans-serif">
+    IndustryIceberg Website
+  </text>
+</svg>

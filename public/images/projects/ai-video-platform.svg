@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="AI Video Platform placeholder">
+  <rect width="960" height="540" fill="#0f172a" />
+  <rect x="40" y="40" width="880" height="460" rx="20" fill="#111827" stroke="#334155" />
+  <rect x="80" y="95" width="460" height="300" rx="12" fill="#1e293b" />
+  <polygon points="270,190 270,300 360,245" fill="#60a5fa" />
+  <rect x="575" y="100" width="280" height="18" rx="9" fill="#334155" />
+  <rect x="575" y="145" width="240" height="16" rx="8" fill="#1d4ed8" />
+  <rect x="575" y="178" width="195" height="16" rx="8" fill="#334155" />
+  <rect x="575" y="220" width="250" height="16" rx="8" fill="#334155" />
+  <text x="80" y="465" fill="#e2e8f0" font-size="28" font-family="Manrope, Arial, sans-serif">
+    AI Video Generation Platform
+  </text>
+</svg>

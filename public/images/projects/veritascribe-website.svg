@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="VeritaScribe website placeholder">
+  <rect width="960" height="540" fill="#0b1120" />
+  <rect x="55" y="48" width="850" height="445" rx="22" fill="#111827" stroke="#334155" />
+  <rect x="95" y="90" width="770" height="54" rx="10" fill="#1e293b" />
+  <rect x="95" y="170" width="540" height="250" rx="14" fill="#1d4ed8" opacity="0.38" />
+  <rect x="660" y="170" width="205" height="118" rx="10" fill="#1e293b" />
+  <rect x="660" y="302" width="205" height="118" rx="10" fill="#1e293b" />
+  <text x="95" y="470" fill="#e2e8f0" font-size="28" font-family="Manrope, Arial, sans-serif">
+    VeritaScribe Website
+  </text>
+</svg>

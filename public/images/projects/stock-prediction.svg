@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" role="img" aria-label="Stock prediction placeholder">
+  <rect width="960" height="540" fill="#020617" />
+  <rect x="60" y="48" width="840" height="445" rx="20" fill="#0f172a" stroke="#334155" />
+  <rect x="100" y="95" width="760" height="62" rx="12" fill="#1e293b" />
+  <polyline points="120,380 215,350 310,360 405,300 500,315 595,245 690,260 785,205 840,175" fill="none" stroke="#22d3ee" stroke-width="7" />
+  <polyline points="120,392 215,370 310,378 405,345 500,340 595,315 690,298 785,270 840,242" fill="none" stroke="#1d4ed8" stroke-width="5" opacity="0.8" />
+  <line x1="120" y1="398" x2="840" y2="398" stroke="#334155" stroke-width="3" />
+  <text x="100" y="470" fill="#e2e8f0" font-size="28" font-family="Manrope, Arial, sans-serif">
+    Stock Price Prediction (LSTM)
+  </text>
+</svg>
