@@ -116,12 +116,12 @@ export const education = [
   {
     degree: "PUC",
     institute: "Narayan Junior College",
-    score: "9.88",
+    score: "9.88 CGPA",
   },
   {
     degree: "SSC",
     institute: "Ramnagar Municipal High School",
-    score: "9.7",
+    score: "9.7 CGPA",
   },
 ];
 
